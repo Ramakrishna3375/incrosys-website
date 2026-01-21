@@ -12,7 +12,8 @@ import CloudComputingServicesPage from './ItServicesOptions/CloudComputingServic
 import ItStrategyPlanningPage from './ItServicesOptions/ItStrategyPlanning';
 import HrConsultingPage from './HrServicesOptions/HrConsulting';
 import EmployeeTrainingDevelopmentPage from './HrServicesOptions/EmployeeTrainingDevelopment';
-
+import RecruitmentTalentAcquisitionPage from './HrServicesOptions/RecruitmentTalentAcquisition';
+import JobApplicationForm from './HrServicesOptions/JobApplicationForm';
 
 function App(){
 return(
@@ -31,7 +32,8 @@ return(
         <Route path="/it-strategy-planning" element={<ItStrategyPlanningPage />} />
         <Route path="/hr-consulting" element={<HrConsultingPage />} />
         <Route path="/employee-training-development" element={<EmployeeTrainingDevelopmentPage />} />
-        
+        <Route path="/recruitment-talent-acquisition" element={<RecruitmentTalentAcquisitionPage />} />
+        <Route path="/job-application" element={<JobApplicationForm />} />
       </Routes>
     </>
   );
